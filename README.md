@@ -23,18 +23,18 @@ H5监控直播，微信直播，RTSP、RTMP转低延时h5直播，超低延时�
 
 启动：
 
-1，双击运行，start.bat
+1、双击运行，start.bat
 
-2，网页打开http://127.0.0.1:10008/ 用户：admin 密码：admin
+2、网页打开http://127.0.0.1:10008/ 用户：admin 密码：admin
 
-3,推流列表，添加拉流（支持rtmp,rtsp,监控摄像头） 目标本地地址：rtmp://127.0.0.1:1937/live/流id  
+3、推流列表，添加拉流（支持rtmp,rtsp,监控摄像头） 目标本地地址：rtmp://127.0.0.1:1937/live/流id  
 
-4，也可以直接用推流工具推流：rtmp://127.0.0.1:1937/live/流id  
+4、也可以直接用推流工具推流：rtmp://127.0.0.1:1937/live/流id  
 
-5，播放列表测试或直接到播放器地址 http://127.0.0.1:10008/ovplay/ 配置播放
+5、播放列表测试或直接到播放器地址 http://127.0.0.1:10008/ovplay/ 配置播放
 
 停止：
-1，双击运行，stop.bat
+1、运行，stop.bat
 
 <p align="center"><img src="https://github.com/ccallcn/ovsyunlive/raw/master/TIM截图20190519124506.png" /></p>
 <p align="center"><img src="https://github.com/ccallcn/ovsyunlive/raw/master/TIM截图20190519120437.png" /></p>
