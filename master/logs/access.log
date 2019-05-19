@@ -1,0 +1,46 @@
+127.0.0.1 - - [19/May/2019:10:19:50 +0800] "GET /stat HTTP/1.1" 200 635 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36"
+127.0.0.1 - - [19/May/2019:10:22:02 +0800] "GET /stat HTTP/1.1" 200 1525 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36"
+127.0.0.1 - - [19/May/2019:10:22:03 +0800] "GET /stat HTTP/1.1" 200 1525 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36"
+127.0.0.1 - - [19/May/2019:10:22:04 +0800] "GET /ck68/index.html?1111 HTTP/1.1" 200 1760 "http://localhost:2080/stat" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36"
+127.0.0.1 [19/May/2019:10:22:11 +0800] PLAY "live" "1111" "" - 514 205833 "http://localhost:2080/ck68/index.html?1111" "WIN 23,0,0,162" (5s)
+127.0.0.1 [19/May/2019:10:48:45 +0800] PLAY "live" "1111" "" - 546 10335762 "http://localhost:10008/rtmpplay/?live/1111" "WIN 23,0,0,162" (4m 10s)
+127.0.0.1 [19/May/2019:10:51:44 +0800] PUBLISH "live" "1111" "" - 75071349 409 "" "" (29m 54s)
+127.0.0.1 [19/May/2019:10:51:44 +0800] PLAY "live" "1111" "" - 1053 74490652 "" "" (29m 54s)
+127.0.0.1 [19/May/2019:11:13:57 +0800] PLAY "live" "1111" "" - 895 54612844 "" "" (22m 3s)
+127.0.0.1 [19/May/2019:11:13:58 +0800] PUBLISH "live" "1111" "" - 55090581 409 "" "" (22m 4s)
+127.0.0.1 [19/May/2019:11:49:31 +0800] PLAY "live" "1111" "" - 523 190355 "http://127.0.0.1:10008/rtmpplay/?live/1111" "WIN 23,0,0,162" (4s)
+127.0.0.1 [19/May/2019:11:49:50 +0800] PLAY "live" "1111" "" - 523 210063 "http://127.0.0.1:10008/rtmpplay/?live/1111" "WIN 23,0,0,162" (5s)
+127.0.0.1 [19/May/2019:11:52:31 +0800] PLAY "live" "1111" "" - 523 368814 "http://127.0.0.1:10008/rtmpplay/?live/1111" "WIN 23,0,0,162" (8s)
+127.0.0.1 [19/May/2019:11:52:50 +0800] PLAY "live" "1111" "" - 523 247667 "http://127.0.0.1:10008/rtmpplay/?live/1111" "WIN 23,0,0,162" (6s)
+127.0.0.1 [19/May/2019:11:53:24 +0800] PLAY "live" "1111" "" - 519 251653 "http://127.0.0.1:10008/rtmpplay/?live/1111" "WIN 23,0,0,162" (6s)
+127.0.0.1 [19/May/2019:11:54:24 +0800] PLAY "live" "1111" "" - 519 1693134 "http://127.0.0.1:10008/rtmpplay/?live/1111" "WIN 23,0,0,162" (39s)
+127.0.0.1 [19/May/2019:11:55:46 +0800] PLAY "live" "1111" "" - 519 122157 "http://127.0.0.1:10008/rtmpplay/?live/1111" "WIN 23,0,0,162" (3s)
+127.0.0.1 [19/May/2019:11:56:06 +0800] PLAY "live" "1111" "" - 523 178381 "http://127.0.0.1:10008/rtmpplay/?live/1111" "WIN 23,0,0,162" (4s)
+127.0.0.1 [19/May/2019:11:56:40 +0800] PLAY "live" "1111" "" - 523 83596 "http://127.0.0.1:10008/rtmpplay/?live/1111" "WIN 23,0,0,162" (2s)
+127.0.0.1 [19/May/2019:11:59:02 +0800] PLAY "live" "1111" "" - 536 5247237 "http://127.0.0.1:10008/rtmpplay/?live/1111" "WIN 23,0,0,162" (2m 4s)
+127.0.0.1 [19/May/2019:11:59:29 +0800] PLAY "live" "1111" "" - 519 96609 "http://127.0.0.1:10008/rtmpplay/?live/1111" "WIN 23,0,0,162" (2s)
+127.0.0.1 [19/May/2019:12:02:59 +0800] PLAY "live" "1111" "" - 523 44487 "http://127.0.0.1:10008/rtmpplay/?live/1111" "WIN 23,0,0,162" (0s)
+127.0.0.1 [19/May/2019:12:09:20 +0800] PLAY "live" "1111" "" - 519 70023 "http://127.0.0.1:10008/rtmpplay/?live/1111" "WIN 23,0,0,162" (1s)
+127.0.0.1 [19/May/2019:12:09:25 +0800] PLAY "live" "3333" "" - 519 88201 "http://127.0.0.1:10008/rtmpplay/?live/3333" "WIN 23,0,0,162" (2s)
+127.0.0.1 - - [19/May/2019:12:09:45 +0800] "GET /stat HTTP/1.1" 200 2422 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36"
+127.0.0.1 - - [19/May/2019:12:09:45 +0800] "GET /stat.xsl HTTP/1.1" 200 12820 "http://127.0.0.1:2080/stat" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36"
+127.0.0.1 - - [19/May/2019:12:09:45 +0800] "GET /favicon.ico HTTP/1.1" 404 571 "http://127.0.0.1:2080/stat" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36"
+127.0.0.1 - - [19/May/2019:12:09:50 +0800] "GET /ck68/index.html?3333 HTTP/1.1" 200 1760 "http://127.0.0.1:2080/stat" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36"
+127.0.0.1 - - [19/May/2019:12:09:50 +0800] "GET /ck68/ckplayer/ckplayer.js HTTP/1.1" 200 52358 "http://127.0.0.1:2080/ck68/index.html?3333" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36"
+127.0.0.1 - - [19/May/2019:12:09:50 +0800] "GET /ck68/ckplayer/ckplayer.swf HTTP/1.1" 200 62995 "http://127.0.0.1:2080/ck68/index.html?3333" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36"
+127.0.0.1 - - [19/May/2019:12:09:50 +0800] "GET /ck68/ckplayer/language.xml HTTP/1.1" 200 4090 "http://127.0.0.1:2080/ck68/index.html?3333" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36"
+127.0.0.1 - - [19/May/2019:12:09:50 +0800] "GET /ck68/ckplayer/style.swf HTTP/1.1" 200 86114 "http://127.0.0.1:2080/ck68/index.html?3333" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36"
+127.0.0.1 [19/May/2019:12:09:52 +0800] PLAY "live" "3333" "" - 514 80069 "http://127.0.0.1:2080/ck68/index.html?3333" "WIN 23,0,0,162" (2s)
+127.0.0.1 - - [19/May/2019:12:10:35 +0800] "GET /favicon.ico HTTP/1.1" 404 571 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36"
+127.0.0.1 - - [19/May/2019:12:10:36 +0800] "GET /stat HTTP/1.1" 200 2418 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36"
+127.0.0.1 - - [19/May/2019:12:10:38 +0800] "GET /favicon.ico HTTP/1.1" 404 571 "http://127.0.0.1:2080/stat" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36"
+127.0.0.1 [19/May/2019:12:10:46 +0800] PLAY "live" "3333" "" - 514 79356 "http://127.0.0.1:2080/ck68/index.html?3333" "WIN 23,0,0,162" (2s)
+127.0.0.1 [19/May/2019:12:11:11 +0800] PLAY "live" "3333" "" - 405 5417778 "" "" (2m 10s)
+127.0.0.1 [19/May/2019:12:11:11 +0800] PLAY "live" "1111" "" - 900 54665115 "" "" (21m 52s)
+127.0.0.1 [19/May/2019:12:11:11 +0800] PUBLISH "live" "1111" "" - 55158140 409 "" "" (21m 53s)
+127.0.0.1 [19/May/2019:12:11:11 +0800] PUBLISH "live" "3333" "" - 5593734 409 "" "" (2m 11s)
+127.0.0.1 [19/May/2019:12:44:24 +0800] PLAY "live" "3333" "" - 523 79891 "http://127.0.0.1:10008/rtmpplay/?live/3333" "WIN 23,0,0,162" (2s)
+127.0.0.1 [19/May/2019:13:02:38 +0800] PLAY "live" "1111" "" - 810 45915901 "" "" (18m 29s)
+127.0.0.1 [19/May/2019:13:02:38 +0800] PLAY "live" "3333" "" - 810 45916366 "" "" (18m 30s)
+127.0.0.1 [19/May/2019:13:02:38 +0800] PUBLISH "live" "3333" "" - 46336691 409 "" "" (18m 30s)
+127.0.0.1 [19/May/2019:13:02:38 +0800] PUBLISH "live" "1111" "" - 46338828 409 "" "" (18m 30s)

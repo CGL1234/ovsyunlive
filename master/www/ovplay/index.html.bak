@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='utf-8'>
+<link rel='stylesheet' href='client.css'/> 
+<title>OVPLAY</title>
+</head>
+<body>
+<h1> OVPLAY-QQ:1410919373</h1>
+URL:<input id="urlipt" type="text" placeholder="ovplay://127.0.0.1:8801/live/1111" style="width:320px;" value="ovplay://127.0.0.1:8801/live/1111"></input>
+<button type="button" onclick="player()">播放</button>
+<button type="button" onclick="iosaudio()">IOS音频</button>
+<button type="button" onclick="stop()">关闭</button>
+<button type="button" onclick="fullopen()">打开全屏</button>
+<button type="button" onclick="fullclose()">关闭全屏</button>
+<div id='container1'  width="640px" height="480px">
+ <canvas id="videoCanvas" width="640px" height="480px"> 
+</div> 
+</div>
+<script src='ovplay.min.js'>
+</script>
+<script type="text/javascript">
+	var ahost = window.location.host.split(":");
+	
+	var url=window.location.href;
+	var ip=ahost[0];
+	var stream="";
+
+  
+  var ovplay = {}; 
+  var canvas = document.getElementById('videoCanvas'); 
+  var play=false;
+
+  function player() {
+        if(!play){
+            play=true;
+            var url=document.getElementById("urlipt").value; 
+             if (url.length<1){ 
+             		alert("请输如正确的播放地址！");
+             		return;
+             }
+ 
+            ovplay = new OVPlay.Player(url, {canvas:canvas});
+ 
+            if (ovplay.audioOut && !ovplay.audioOut.unlocked){
+                 //alert("ios 锁啦");
+                ovplay.audioOut.unlock(null);//解锁音频
+            }
+
+
+            canvas.style.width = '640px';
+			 canvas.style.height = '480px';
+            canvas.addEventListener('dblclick', function() {
+              if(canvas.requestFullScreen) canvas.requestFullScreen();
+              else if(canvas.webkitRequestFullScreen) canvas.webkitRequestFullScreen();
+              else if(canvas.mozRequestFullScreen) canvas.mozRequestFullScreen();
+            })
+
+        }else{
+            alert("已经在播放啦！！");
+        }
+    }
+ if (url.indexOf("?") != -1){ 
+ 		stream=url.substring(url.lastIndexOf('?')+1,url.length);　
+		document.getElementById("urlipt").value='ovplay://'+ip+':8801/'+stream;
+		player();
+ }
+    function iosaudio() {
+        if(play){
+                //判断是不是IOS音频锁定啦
+                // alert("ios 锁啦");
+                // plaudio.audioOut.unlock(null);
+                if (ovplay.audioOut && !ovplay.audioOut.unlocked){
+                   //alert("ios 锁啦");
+                   ovplay.audioOut.unlock(null);//解锁音频
+                }
+         }
+    }
+    function stop() {
+        if(play){
+ 
+            ovplay.stop();
+            //plaudio.destroy();
+
+        }
+        play=false;
+        
+    }
+
+    function fullopen() {
+        if(play){
+          if(canvas.requestFullScreen) canvas.requestFullScreen();
+          else if(canvas.webkitRequestFullScreen) canvas.webkitRequestFullScreen();
+          else if(canvas.mozRequestFullScreen) canvas.mozRequestFullScreen();
+        }
+    }
+ 
+      document.addEventListener('webkitfullscreenchange', exitHandler, false);
+      document.addEventListener('mozfullscreenchange', exitHandler, false);
+      document.addEventListener('fullscreenchange', exitHandler, false);
+      document.addEventListener('MSFullscreenChange', exitHandler, false);
+ 
+      function exitHandler() {
+        if(document.fullScreenElement || document.webkitCurrentFullScreenElement || document.mozFullScreenElement) {
+          canvas.style.width = '100vw'
+        //  playerElement.style.marginBottom = '0'
+       //   playerElement.style.border = '0'
+        } else {
+           canvas.style.width = '640px'
+        //  playerElement.style.marginBottom = '20px'
+        //  playerElement.style.border = '1px solid #eee'
+        }
+      };
+
+</script>
+</body>
+</html>
