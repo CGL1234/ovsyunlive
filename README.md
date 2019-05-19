@@ -14,7 +14,8 @@ H5监控直播，微信直播，RTSP、RTMP转低延时h5直播，超低延时�
 
 6，支持本地，云服务器多重部署。
 
-测试，绿色版直接git下载
+测试，绿色版直接git下载 https://github.com/ccallcn/ovsyunlive/archive/2.6.zip
+支持QQ:1410919373
 
 启动：
 
