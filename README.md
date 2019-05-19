@@ -1,6 +1,5 @@
 # ovsyunlive
-H5监控直播，超低延时，微信直播，RTSP、RTMP转低延时h5直播，
-H5低延时，微信直播，RTSP，RTMP转低延时h5监控，监控直播系统
+H5监控直播，微信直播，RTSP、RTMP转低延时h5直播，超低延时，监控直播系统
 针对H5在线抓娃娃，在线H5互动游戏，web监控,低延时解决方案
 
 1,支持rtsp,rtmp,ws流互转直播。
@@ -22,12 +21,19 @@ H5低延时，微信直播，RTSP，RTMP转低延时h5监控，监控直播系�
 1，双击运行，start.bat
 
 2，网页打开http://127.0.0.1:10008/ 用户：admin 密码：admin
+
 3,推流列表，添加拉流（支持rtmp,rtsp,监控摄像头） 目标本地地址：rtmp://127.0.0.1:1937/live/流id  
 
 4，也可以直接用推流工具推流：rtmp://127.0.0.1:1937/live/流id  
+
 5，播放列表测试或直接到播放器地址 http://127.0.0.1:10008/ovplay/ 配置播放
 
 停止：
 1，双击运行，stop.bat
 
-
+<p align="center"><img src="https://github.com/ccallcn/ovsyunlive/raw/master/TIM截图20190519124506.png" /></p>
+<p align="center"><img src="https://github.com/ccallcn/ovsyunlive/raw/master/TIM截图20190519120437.png" /></p>
+<p align="center"><img src="https://github.com/ccallcn/ovsyunlive/raw/master/TIM截图20190519120755.png" /></p>
+<p align="center"><img src="https://github.com/ccallcn/ovsyunlive/raw/master/TIM截图20190519120849.png" /></p>
+<p align="center"><img src="https://github.com/ccallcn/ovsyunlive/raw/master/TIM截图20190424172015.png" /></p>
+<p align="center"><img src="https://github.com/ccallcn/ovsyunlive/raw/master/TIM截图20190519120935.png" /></p>
