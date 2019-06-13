@@ -1,5 +1,5 @@
-# ovsyunlive
-H5监控直播，微信直播，RTSP、RTMP转低延时h5直播，超低延时，监控直播系统
+﻿# ovsyunlive
+H5监控直播，微信直播，RTSP、RTMP转低延时h5直播，超低延时，监控直播系,支持http-flv,ws-flv,pc可以不用flash
 针对H5在线抓娃娃，在线H5互动游戏，web监控,低延时解决方案
 
 1、支持rtsp,rtmp,ws流互转直播。
@@ -33,9 +33,8 @@ H5监控直播，微信直播，RTSP、RTMP转低延时h5直播，超低延时�
 4、也可以直接用推流工具推流：rtmp://127.0.0.1:1937/live/流id
 
 rtmp播放：rtmp://127.0.0.1:1937/live/流id
-
-hls播放: http://IP:2080/live/流id.m3u8
-
+flv播放: http://IP:8000/live/流id.flv
+ws-flv播放: ws://IP:8000/live/流id.flv
 H5低延时播放: ovplay://IP:8801/live/流id
 
 5、播放列表测试或直接到播放器地址 http://127.0.0.1:10008/ovplay/ 配置播放
