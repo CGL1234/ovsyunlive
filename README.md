@@ -20,8 +20,6 @@ H5监控直播，微信直播，RTSP、RTMP转低延时h5直播，超低延时�
 
 测试，新绿色版直接git下载 https://codeload.github.com/ccallcn/ovsyunlive/zip/2.7
 
-测试，老版（不支持flv）git下载 https://github.com/ccallcn/ovsyunlive/archive/2.61.zip
-
 对延时要求较高，演示版不满足需要的，可以在线H5测试联系 QQ:1410919373      QQ群:108712418
 
 启动：
