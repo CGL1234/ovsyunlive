@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='utf-8'>
+<link rel='stylesheet' href='client.css'/> 
+<title>OVPLAY2</title>
+</head>
+<body>
+<h1> OVPLAY2-QQ:1410919373</h1>
+URL:<input id="urlipt" type="text" placeholder="ovplay2://127.0.0.1:8802/live/1111" style="width:320px;" value="ovplay2://127.0.0.1:8802/live/1111"></input>
+<button type="button" onclick="player()">播放</button>
+<button type="button" onclick="stop()">关闭</button>
+<button type="button" onclick="fullopen()">打开全屏</button>
+<button type="button" onclick="fullclose()">关闭全屏</button>
+<div id='container1'></div>
+<script src='ovplay2.min.js'></script>
+<script type="text/javascript">
+	var uri = "";
+ 	//var ovplay2 = {}; 
+    //ovplay2 = new OvPlayer2('container1',uri,'auto');
+	//ovplay2.connect();
+
+    //ovplay2.disconnect();
+
+	//ovplay2.player.canvas.style.width = '800px';
+	//ovplay2.player.canvas.style.height = '600px';
+    // ovplay2.player.canvas.style.width = '100vw';
+    // ovplay2.player.canvas.style.marginBottom = '0';
+    // ovplay2.player.canvas.style.border = '0';
+ 
+    //window.ovplay2 = new OvPlayer2('container1','auto');
+	//window.ovplay2.connect(uri);
+
+
+    var play=false;
+    function player() {
+        if(!play){
+            play=true;
+            var uri=document.getElementById("urlipt").value; 
+             if (uri.length<1){ 
+             		alert("请输如正确的播放地址！");
+             		return;
+             }
+			 if(window.ovplay2)
+			{
+				window.ovplay2.connect(uri);
+			}else{
+     			window.ovplay2 = new OvPlayer2('container1','auto');
+				window.ovplay2.connect(uri);
+			}
+     		
+        }else{
+            alert("已经在播放啦！！");
+        }
+    }
+    function stop() {
+        if(play)
+            window.ovplay2.disconnect();
+        play=false;
+        
+    }
+    function fullopen() {
+        if(play){
+          if(window.ovplay2.player.canvas.requestFullScreen) window.ovplay2.player.canvas.requestFullScreen();
+          else if(window.ovplay2.player.canvas.webkitRequestFullScreen) window.ovplay2.player.canvas.webkitRequestFullScreen();
+          else if(window.ovplay2.player.canvas.mozRequestFullScreen) window.ovplay2.player.canvas.mozRequestFullScreen();
+        }
+    }
+ 
+      document.addEventListener('webkitfullscreenchange', exitHandler, false);
+      document.addEventListener('mozfullscreenchange', exitHandler, false);
+      document.addEventListener('fullscreenchange', exitHandler, false);
+      document.addEventListener('MSFullscreenChange', exitHandler, false);
+ 
+      function exitHandler() {
+        if(document.fullScreenElement || document.webkitCurrentFullScreenElement || document.mozFullScreenElement) {
+          window.ovplay2.player.canvas.style.width = '100vw'
+        //  playerElement.style.marginBottom = '0'
+       //   playerElement.style.border = '0'
+        } else {
+          window.ovplay2.player.canvas.style.width = '640px'
+        //  playerElement.style.marginBottom = '20px'
+        //  playerElement.style.border = '1px solid #eee'
+        }
+      };
+</script>
+</body>
+</html>
