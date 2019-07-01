@@ -18,7 +18,7 @@ H5监控直播，微信直播，RTSP、RTMP转低延时h5直播，超低延时�
 
 6、支持本地，云服务器多重部署（如本地监控可以本地部署一套拉流rtsp拉转推rtmp远程云，云服务器部署一套接收）。
 
-测试，新绿色版直接git下载 https://codeload.github.com/ccallcn/ovsyunlive/zip/2.81
+测试，新绿色版直接git下载 https://codeload.github.com/ccallcn/ovsyunlive/zip/2.91
 
 对延时要求较高，演示版不满足需要的，可以在线H5测试联系 QQ:1410919373      QQ群:108712418
 
