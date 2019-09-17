@@ -2,7 +2,7 @@
 H5监控直播，微信直播，RTSP、RTMP转低延时h5直播，超低延时，监控直播系,支持http-flv,ws-flv,pc可以不用flash
 针对H5在线抓娃娃，在线H5互动游戏，web监控,低延时解决方案
 
-1、支持rtsp,rtmp,ws流互转直播。
+1、支持rtsp,rtmp,ws流互转直播,hls转rtmp。
 
 2、支持rtsp，rtmp,H5低延时直播。
 
