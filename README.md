@@ -2,7 +2,7 @@
 H5监控直播，微信直播，RTSP、RTMP转低延时h5直播，超低延时，监控直播系,支持http-flv,ws-flv,pc可以不用flash
 针对H5在线抓娃娃，在线H5互动游戏，web监控,低延时解决方案
 
-1、支持rtsp,rtmp,ws流互转直播。
+1、支持rtsp,rtmp,ws流互转直播,hls转rtmp。
 
 2、支持rtsp，rtmp,H5低延时直播。
 
@@ -18,7 +18,7 @@ H5监控直播，微信直播，RTSP、RTMP转低延时h5直播，超低延时�
 
 6、支持本地，云服务器多重部署（如本地监控可以本地部署一套拉流rtsp拉转推rtmp远程云，云服务器部署一套接收）。
 
-测试，新绿色版直接git下载 https://github.com/ccallcn/ovsyunlive/archive/3.02.zip
+测试，新绿色版直接git下载 https://github.com/ccallcn/ovsyunlive/archive/3.03.zip
 
 对延时和流畅度要求较高，演示版不满足需要的，可以在线H5测试联系 QQ:1410919373      QQ群:108712418
 
@@ -46,10 +46,20 @@ H5低码流播放: ovplay2://IP:8802/live/流id
 
 6、ovplay播放器地址 http://127.0.0.1:10008/ovplay/ 配置播放
 
-7、ovplay2更低码流播放器地址 http://127.0.0.1:10008/ovplay2/ 配置播放
+ovplay2更低码流测试：
+1、停止服务stop.bat
 
-停止：
-1、运行，stop.bat
+2、配置ovsyunlive.ini后,重启
+
+wstype=ovplay2
+
+3、其它操作一样 ovplay2监控地址： http://127.0.0.1:6602/livelist
+
+4、ovplay2更低码流播放器地址： http://127.0.0.1:10008/ovplay2/ 配置播放
+
+停止： 1、运行，stop.bat
+
+注意： 1、运行的路径不要带中文字符
 
 <p align="center"><img src="https://github.com/ccallcn/ovsyunlive/raw/master/TIM截图20190519124506.png" /></p>
 <p align="center"><img src="https://github.com/ccallcn/ovsyunlive/raw/master/TIM截图20190519120437.png" /></p>
