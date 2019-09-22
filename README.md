@@ -61,9 +61,6 @@ wstype=ovplay2
 
 注意： 1、运行的路径不要带中文字符
 
-注意：
-1、运行的路径不要带中文字符
-
 <p align="center"><img src="https://github.com/ccallcn/ovsyunlive/raw/master/TIM截图20190519124506.png" /></p>
 <p align="center"><img src="https://github.com/ccallcn/ovsyunlive/raw/master/TIM截图20190519120437.png" /></p>
 <p align="center"><img src="https://github.com/ccallcn/ovsyunlive/raw/master/TIM截图20190519120755.png" /></p>
