@@ -46,23 +46,20 @@ H5低码流播放: ovplay2://IP:8802/live/流id
 
 6、ovplay播放器地址 http://127.0.0.1:10008/ovplay/ 配置播放
 
+
 ovplay2更低码流测试：
+
 1、停止服务stop.bat
 
 2、配置ovsyunlive.ini后,重启
 
 wstype=ovplay2
 
-3、其它操作一样 ovplay2监控地址： http://127.0.0.1:6602/livelist
-
-4、ovplay2更低码流播放器地址： http://127.0.0.1:10008/ovplay2/ 配置播放
+3、其它操作一样 ovplay2更低码流播放器地址： http://127.0.0.1:10008/ovplay2/ 配置播放
 
 停止： 1、运行，stop.bat
 
-注意： 1、运行的路径不要带中文字符
-
-注意：
-1、运行的路径不要带中文字符
+注意： 1、运行路径和流ID不要带中文字符
 
 <p align="center"><img src="https://github.com/ccallcn/ovsyunlive/raw/master/TIM截图20190519124506.png" /></p>
 <p align="center"><img src="https://github.com/ccallcn/ovsyunlive/raw/master/TIM截图20190519120437.png" /></p>

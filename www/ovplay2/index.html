@@ -36,10 +36,14 @@ URL:<input id="urlipt" type="text" placeholder="ovplay2://localhost:8802/live/11
 	
 	var url=window.location.href;
 	var ip=ahost[0];
-	var stream="live/1111";
-	document.getElementById("urlipt").value='ovplay2://'+ip+':8802/'+stream;
-
-    var play=false;
+	 var play=false;
+	 if (url.indexOf("?") != -1){ 
+			stream=url.substring(url.lastIndexOf('?')+1,url.length);　
+			document.getElementById("urlipt").value='ovplay2://'+ip+':8802/'+stream;
+			player();
+	 }else{
+		document.getElementById("urlipt").value='ovplay2://'+ip+':8802/live/7777';
+	 }
     function player() {
         if(!play){
             play=true;
@@ -61,6 +65,7 @@ URL:<input id="urlipt" type="text" placeholder="ovplay2://localhost:8802/live/11
         }
     }
     function stop() {
+		//alert(play);
         if(play)
             window.ovplay2.disconnect();
         play=false;
