@@ -59,11 +59,7 @@ wstype=ovplay2
 
 停止： 1、运行，stop.bat
 
-<<<<<<< HEAD
 注意： 1、运行路径和流ID不要带中文字符
-=======
-注意： 1、运行的路径不要带中文字符
->>>>>>> 17db6f7ff9e7eeda4fefbb1878481c2665e7b01d
 
 <p align="center"><img src="https://github.com/ccallcn/ovsyunlive/raw/master/TIM截图20190519124506.png" /></p>
 <p align="center"><img src="https://github.com/ccallcn/ovsyunlive/raw/master/TIM截图20190519120437.png" /></p>
